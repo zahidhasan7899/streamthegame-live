@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="480">
+    <title>StreamTheGame Live</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+        .header {
+            font-size: 26px;
+            font-weight: 600;
+            color: #f1f1f1;
+            background: #222;
+            padding: 15px;
+        }
+        .telegram-ad {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #0088cc;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            z-index: 1000;
+        }
+        .telegram-ad:hover {
+            background-color: #0077b5;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .fullscreen-instructions {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            z-index: 10;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">StreamTheGame</div>
+    <div class="sticky-icon">
+        <a href="https://t.me/streamthegame" class="Instagram"><i class="fab fa-telegram-plane" style="color: #0f8ae7;"></i> Telegram </a>
+    </div>
+    <div class="container">
+        <iframe id="match-iframe" src="https://xiaolin.live/wowhaha.php?m3u8=https://livecdn.rumsport.com/stream/25/index.m3u8&id=2089&token=68c1ad866cda6f245c3a1485b15e9b9e3b4bd95c.true.1739901600-eAXwvIUkMB3CQqjIS79DqqKa4nToYTmJmV1chyn2g2k=&ver=2899838&parent=amzfutbol.com&is_vip=true&image=https://img.amzfutbol.com/static/common/img/matchs/1629417340.jpg&matchdate=1741455900" allowfullscreen></iframe>
+        <div class="fullscreen-instructions">
+            <p>Double Click to Enter Fullscreen</p>
+            <p>Google Chrome Browser Supports Fullscreen</p>
+        </div>
+    </div>
+    <a href="https://t.me/streamthegamebuttom" class="telegram-ad">Join Our Telegram Channel</a>
+</body>
+</html>
